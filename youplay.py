@@ -121,9 +121,9 @@ with st.sidebar:
         mime="application/zip",
         key="btn_source",
         use_container_width=True,
-    ) """
+    ) 
     if src_missing:
-        st.caption("Arquivos ausentes no pacote: " + ", ".join(src_missing))
+        st.caption("Arquivos ausentes no pacote: " + ", ".join(src_missing)) """
 
 st.warning(
     "O YouTube pode recusar pedidos vindos de servidores em nuvem (pedido de login, "
