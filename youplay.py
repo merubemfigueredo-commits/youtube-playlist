@@ -111,8 +111,8 @@ with st.sidebar:
         f"- Até **{MAX_BATCH_MB} MB** por lote\n"
         f"- Até **{MAX_VIDEO_MB} MB** por vídeo"
     )
-   """st.divider()
-    st.subheader("Código-fonte")
+   st.divider()
+  """ st.subheader("Código-fonte")
     src_bytes, src_missing = build_source_zip()
     st.download_button(
         "Baixar código-fonte (ZIP)",
