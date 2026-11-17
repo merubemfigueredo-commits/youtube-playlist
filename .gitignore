@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+.venv/
+.pythonlibs/
+.env
+.streamlit/secrets.toml
+*.mp4
+*.m4a
+*.webm
+*.part
+*.ytdl
+*.zip
+.DS_Store
