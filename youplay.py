@@ -112,18 +112,6 @@ with st.sidebar:
         f"- Até **{MAX_VIDEO_MB} MB** por vídeo"
     )
     st.divider()
-    """st.subheader("Código-fonte")
-    src_bytes, src_missing = build_source_zip()
-    st.download_button(
-        "Baixar código-fonte (ZIP)",
-        data=src_bytes,
-        file_name="youtube-playlist-fonte.zip",
-        mime="application/zip",
-        key="btn_source",
-        use_container_width=True,
-    ) 
-    if src_missing:
-        st.caption("Arquivos ausentes no pacote: " + ", ".join(src_missing)) """
 
 st.warning(
     "O YouTube pode recusar pedidos vindos de servidores em nuvem (pedido de login, "
